@@ -72,6 +72,8 @@ Java for Android Developers (10h)
   ```
   
  6. Operators
+ 
+ <img src = "https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson1/images/java-operators.png" />
   
  7. Arrays
   
