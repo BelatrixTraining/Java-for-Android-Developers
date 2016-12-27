@@ -81,6 +81,13 @@ Java for Android Developers (10h)
   
  9. Methods
   
+ 10. Exercises
+
+ - https://leetcode.com/problems/reverse-string
+ - https://leetcode.com/problems/maximum-depth-of-binary-tree
+ - https://leetcode.com/problems/sum-of-two-integers
+ - https://leetcode.com/problems/invert-binary-tree
+ - https://leetcode.com/problems/sum-of-left-leaves
 
  
 ## Referencias 
@@ -89,3 +96,4 @@ Java for Android Developers (10h)
  - https://google.github.io/styleguide/javaguide.html
  - https://www.compilejava.net/
  - https://www.edx.org/course/java-fundamentals-android-development-galileox-caad001x
+ - https://leetcode.com/
