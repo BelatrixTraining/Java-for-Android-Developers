@@ -76,9 +76,62 @@ Java for Android Developers (10h)
  <img src = "https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson1/images/java-operators.png" />
   
  7. Arrays
+
+  ```
+     // declares an array of integers
+    int[] anArray;
+    byte[] anArrayOfBytes;
+    short[] anArrayOfShorts;
+    long[] anArrayOfLongs;
+    float[] anArrayOfFloats;
+    double[] anArrayOfDoubles;
+    boolean[] anArrayOfBooleans;
+    char[] anArrayOfChars;
+    String[] anArrayOfStrings;
+  ```
+
+  ```
+    // create an array of integers
+    anArray = new int[10];
+    anArray[0] = 100; // initialize first element
+    anArray[1] = 200; // initialize second element
+    anArray[2] = 300; // and so forth
+  ```
+
+  ```
+    int[] anArray = { 
+        100, 200, 300,
+        400, 500, 600, 
+        700, 800, 900, 1000
+    };
+  ```
   
  8. Control flow statements
+
+ ```
+  class IfElseDemo {
+      public static void main(String[] args) {
+
+        int testscore = 76;
+        char grade;
+
+        if (testscore >= 90) {
+            grade = 'A';
+        } else if (testscore >= 80) {
+            grade = 'B';
+        } else if (testscore >= 70) {
+            grade = 'C';
+        } else if (testscore >= 60) {
+            grade = 'D';
+        } else {
+            grade = 'F';
+        }
+        System.out.println("Grade = " + grade);
+      }
+  }
   
+ ```
+
  9. Methods
   
  10. Exercises
