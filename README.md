@@ -33,13 +33,13 @@ Java for Android Developers (10h)
    
    * Composite
  
-### Tools
+## Tools
  
  - Compilador online https://www.compilejava.net/
  
  - IntelliJ IDEA (java IDE)  https://www.jetbrains.com/idea/?fromMenu
  
-### Patrones 
+## Patrones 
  
  - Factory Pattern
  
