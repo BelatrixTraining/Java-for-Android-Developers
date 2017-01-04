@@ -15,7 +15,6 @@ public class PlaceDataStoreFactory {
     private final Context context;
 
     public PlaceDataStoreFactory(Context context) {
-
         if (context == null) {
             throw new IllegalArgumentException("Constructor parameters cannot be null!!!");
         }
@@ -29,7 +28,7 @@ public class PlaceDataStoreFactory {
         switch (dataSource)
         {
             case CLOUD:
-                placeDataStore= RestPlaceDataStore();
+                placeDataStore= new RestPlaceDataStore();
                 break;
             case DB:
                 placeDataStore= new DbPlaceDataStore();
