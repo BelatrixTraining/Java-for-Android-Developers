@@ -3,7 +3,7 @@ Java for Android Developers (10h)
  
 ## Programación orientada a Objetos POO (2h)
 
- 1. ####Conceptos básicos:
+ - ####Conceptos básicos:
 
   a. Qué es POO?
 
@@ -29,7 +29,7 @@ Java for Android Developers (10h)
 
 	Es un suceso del sistema (interacción del usuario o mensaje enviado por algún otro objeto) el cual es manejado por este y derivado al objeto pertinente.
 
- 2. ####Ejemplo:
+ - ####Ejemplo:
 
 
 		public class Persona {
@@ -97,7 +97,7 @@ Java for Android Developers (10h)
   Persona persona = **new** Persona();
 
 
- 3. ####Caracteristicas de POO
+ - ####Caracteristicas de POO
 
    a. Herencia: 
      POO permite que clases hereden el comportamiento y estado de otras clases. En Java solo se permite heredar de una clase.
@@ -177,7 +177,7 @@ Java for Android Developers (10h)
    Abstrae el cómo del qué. Cada objeto puede realizar su función sin revelar cómo lo hace. De esta manera la parte que invoca al objeto no tiene que preocuparse por cómo hará su trabajo.
    
 
- 4. ####Modificadores
+ - ####Modificadores de acceso
 Un modificador de acceso es una palabra restringida que restringe la privacidad del componente al que precede.
 En Java tenemos los siguientes modificadores de acceso:
 
@@ -198,7 +198,7 @@ En Java tenemos los siguientes modificadores de acceso:
 	Final: Si precede a una variable indica que el valor de esta no se puede modificar, si precede a un método indica que este no se puede sobreescribir y si precede a una clase indica que la clase no se puede extender.
 	
   
- 5. ####Ejercicios
+ - ####Ejercicios
 
 
  	Un objeto tiene ___ y ___. (estado y comportamiento)
@@ -221,4 +221,7 @@ En Java tenemos los siguientes modificadores de acceso:
  
 ## Referencias 
 
-	- https://docs.oracle.com/javase/tutorial/java/concepts/object.html
+ - https://www.edx.org/course/java-fundamentals-android-development-galileox-caad001x
+ - https://docs.oracle.com/javase/tutorial/java/concepts/object.html
+
+	
