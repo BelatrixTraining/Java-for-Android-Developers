@@ -183,14 +183,23 @@ Java for Android Developers (10h)
 
 
  	Un objeto tiene ___ y ___. (estado y comportamiento)
+
 	El estado de un objeto se guarda en ___. (propiedades)
+
 	El comportamiento de un objecto se visualiza mediante sus ___. (métodos)
+
 	Esconder data interna del mundo exterior y solo acceder a ella a través de metodos públicos se conoce como ___. (encapsulación de data)
+
 	Una radiografia (blueprint) de un SW es llamada una ___. (clase)
+
 	Un comportamiento comun puede ser definido en una ___ y puede ser heredado en una ___ usando la palabra ___. (superclase - subclase - extends)
+
 	Una colección de métodos sin implementación se le llama a una ___. (interface)
+
 	Un nombre de espacio (namespace) que organiza clases e interfaces es llamado ___. (paquete)
+
 	El término API significa ___? (application programming interface)
+	
  
 ## Referencias 
 
