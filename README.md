@@ -8,17 +8,38 @@ Java for Android Developers (10h)
 
  - Comportamiento
  
+   * Command
+   
+   * Observer
+   
+   * State
+   
+   * Strategy
+   
+ 
  - Creación
+ 
+   * Factory
+   
+   * Singleton
+   
+   * Builder
  
  - Estructura
  
- ### Tools
+   * Decorator
+   
+   * Adapter
+   
+   * Composite
+ 
+## Tools
  
  - Compilador online https://www.compilejava.net/
  
  - IntelliJ IDEA (java IDE)  https://www.jetbrains.com/idea/?fromMenu
  
- ### Patrones 
+## Patrones 
  
  - Factory Pattern
  
