@@ -8,10 +8,25 @@
 ### Pasos
 
 - Crear un nuevo proyecto.
+
+  <img src="https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson3/images/idea01.png" height="480">
+
 - Seleccionar tipo de proyecto (Java).
+
+  <img src="https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson3/images/idea02.png" height="480">
+
 - Crear/Seleccionar Path del proyecto.
-- Crear un package. 
+
+  <img src="https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson3/images/idea03.png" height="480">
+
+- Crear un package.
+
+  <img src="https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson3/images/idea04.png" height="480">
+
 - Crear nuestra primera clase Java.
+
+  <img src="https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson3/images/idea05.png" height="480">
+
 - Correr nuestro proyecto.
 
 Main.java
