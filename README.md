@@ -3,7 +3,7 @@ Java for Android Developers (10h)
  
 ## Programación orientada a Objectos POO (2h)
 
- 1. Conceptos básicos:
+ 1. ####Conceptos básicos:
 
   a. Qué es POO?
 
@@ -29,7 +29,7 @@ Java for Android Developers (10h)
 
 	Es un suceso del sistema (interacción del usuario o mensaje enviado por algún otro objeto) el cual es manejado por este y derivado al objeto pertinente.
 
- 2. Ejemplo:
+ 2. ####Ejemplo:
 
 
 		public class Persona {
@@ -97,7 +97,7 @@ Java for Android Developers (10h)
   Persona persona = **new** Persona();
 
 
- 3. Caracteristicas de POO
+ 3. ####Caracteristicas de POO
 
    a. Herencia: 
      POO permite que clases hereden el comportamiento y estado de otras clases. En Java solo se permite heredar de una clase.
@@ -175,31 +175,41 @@ Java for Android Developers (10h)
 
    d. Abstracción: 
    Abstrae el cómo del qué. Cada objeto puede realizar su función sin revelar cómo lo hace. De esta manera la parte que invoca al objeto no tiene que preocuparse por cómo hará su trabajo.
+   
 
-  
+ 4. ####Modificadores de acceso
+Un modificador de acceso es una palabra restringida que restringe la privacidad del componente al que precede.
+En Java tenemos los siguientes modificadores de acceso:
 
+	![Access Modifiers](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson2/images/AccessModifiers.png)
+
+  Otros modificadores:
   
- 4. Ejercicios
+	Native: Indica que un método esta escrito en un lenguaje distinto a Java (C o C++ por ejemplo)
+
+	Transient: Indica que el atributo no es parte persistente del objeto.
+	
+	Volatile: Se utiliza para indicar que el atributo puede ser modificado por varios threats de forma simultanea y asincrona. No proporciona atomicidad.
+
+	Synchronized: Similar a volatile pero se aplica a métodos o bloques de código. 
+
+	Abstract: Indica que la implementación del método no estará en la clase actual sino en las clase que la implementen. Una clase con uno o mas métodos abstractos debe ser declarada abstracta.
+
+	Final: Si precede a una variable indica que el valor de esta no se puede modificar, si precede a un método indica que este no se puede sobreescribir y si precede a una clase indica que la clase no se puede extender.
+	
+  
+ 5. ####Ejercicios
 
 
  	Un objeto tiene ___ y ___. (estado y comportamiento)
-
 	El estado de un objeto se guarda en ___. (propiedades)
-
 	El comportamiento de un objecto se visualiza mediante sus ___. (métodos)
-
 	Esconder data interna del mundo exterior y solo acceder a ella a través de metodos públicos se conoce como ___. (encapsulación de data)
-
 	Una radiografia (blueprint) de un SW es llamada una ___. (clase)
-
 	Un comportamiento comun puede ser definido en una ___ y puede ser heredado en una ___ usando la palabra ___. (superclase - subclase - extends)
-
 	Una colección de métodos sin implementación se le llama a una ___. (interface)
-
 	Un nombre de espacio (namespace) que organiza clases e interfaces es llamado ___. (paquete)
-
 	El término API significa ___? (application programming interface)
-	
  
 ## Referencias 
 
