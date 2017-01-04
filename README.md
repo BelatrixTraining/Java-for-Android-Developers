@@ -8,9 +8,30 @@ Java for Android Developers (10h)
 
  - Comportamiento
  
+   * Command
+   
+   * Observer
+   
+   * State
+   
+   * Strategy
+   
+ 
  - Creación
  
+   * Factory
+   
+   * Singleton
+   
+   * Builder
+ 
  - Estructura
+ 
+   * Decorator
+   
+   * Adapter
+   
+   * Composite
  
  ### Tools
  
