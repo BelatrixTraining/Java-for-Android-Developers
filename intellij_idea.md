@@ -2,8 +2,11 @@
 
 ### Requisitos
 
-- Java JDK 7, 8
-- Android SDK (opcional)
+- Java JDK 7, 8 [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+- Android SDK (opcional) [https://developer.android.com/studio/index.html?hl=es-419](https://developer.android.com/studio/index.html?hl=es-419)
+
+- IDE Intellij IDEA [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)
 
 ### Pasos
 
