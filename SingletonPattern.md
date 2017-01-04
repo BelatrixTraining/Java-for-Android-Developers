@@ -81,4 +81,10 @@ public class MyImageLoader {
     }
 }
 
-``` 
+```
+
+```java
+  // Get a RequestQueue
+  RequestQueue queue = MySingleton.getInstance(this.getApplicationContext()).
+      getRequestQueue();
+```
