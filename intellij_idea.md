@@ -35,7 +35,7 @@ Main.java
 ``` 
 ### Referencias
 
-- https://www.jetbrains.com/idea/
+- IDE https://www.jetbrains.com/idea/
 
 - Documentation [https://www.jetbrains.com/idea/documentation/](https://www.jetbrains.com/idea/documentation/)
 
