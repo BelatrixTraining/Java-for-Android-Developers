@@ -1,5 +1,7 @@
 package com.bx.java.samples;
 
+import com.bx.java.samples.singleton.MySingleton;
+
 /**
  * Created by eduardomedina on 4/01/17.
  */

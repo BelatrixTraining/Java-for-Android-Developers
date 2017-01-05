@@ -1,4 +1,4 @@
-package com.bx.java.samples;
+package com.bx.java.samples.singleton;
 
 /**
  * Created by eduardomedina on 4/01/17.
