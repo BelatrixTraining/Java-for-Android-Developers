@@ -16,7 +16,7 @@ Java for Android Developers (10h)
       
       * Herencia
       
-   -  Principios de POO
+  -  Principios de POO
     
        * Encapsular lo que varía. 
        
@@ -24,13 +24,14 @@ Java for Android Developers (10h)
        
        * Programa con interfaces , no con implementaciones.
   
- ¿ Qué son los patrones de diseño ?
- Son lecciones aprendidas por otros desarrolladores que han pasado por el problema y no murieron en el intento
- o encontraron un mejor camino para resolverlo.
+ - ¿ Qué son los patrones de diseño ?
  
- La idea es aprender de la experiencia obtenida usando los patrones que de reutilizar el código.
+Son lecciones aprendidas por otros desarrolladores que han pasado por el problema y no murieron en el intento
+o encontraron un mejor camino para resolverlo.
  
- Se divide en 3 grupos :
+La idea es aprender de la experiencia obtenida usando los patrones que de reutilizar el código.
+ 
+Se divide en 3 grupos :
  
   * Comportamiento
   
@@ -38,7 +39,7 @@ Java for Android Developers (10h)
   
   * Estructura
   
-Patrones :
+- Patrones :
  
  - Comportamiento
  
@@ -58,7 +59,7 @@ Patrones :
    
    * Builder
    
- - Estructura
+- Estructura
  
    * Decorator
    
