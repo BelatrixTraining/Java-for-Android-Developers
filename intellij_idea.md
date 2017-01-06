@@ -32,6 +32,14 @@
 
 - Correr nuestro proyecto.
 
+* Agregar dependencias del SDK de Android
+
+    - Click derecho en el proyecto 
+    
+    - Open Module Setting 
+    
+  <img src="https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson3/images/dependency_android_sdk.png" height="480"> 
+
 Main.java
 
 ```java
