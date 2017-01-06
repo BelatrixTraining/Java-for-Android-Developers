@@ -1,10 +1,15 @@
 ##Adapter Pattern
 
-### Ejemplo en Android
+
 
 ![Adapter](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson3/images/adapter_pattern.png)
 
+### Ejemplo en Android
+
 MyAdapter.java
+
+![Android Adapter](https://developer.android.com/images/ui/listview.png?hl=es-419)
+
 
 ```java
     public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
