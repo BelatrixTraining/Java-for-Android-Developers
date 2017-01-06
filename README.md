@@ -1,9 +1,14 @@
 # Java-for-Android-Developers
 Java for Android Developers (10h)
  
- 
 ## Patrones de Diseño (2h)
 
+## Tools
+ 
+ - Compilador online https://www.compilejava.net/
+ 
+ - IntelliJ IDEA (java IDE)  https://www.jetbrains.com/idea/?fromMenu
+ 
 ### Conceptos previos
   
   -  Conceptos básicos de POO
@@ -18,9 +23,9 @@ Java for Android Developers (10h)
       
   -  Principios de POO
     
-       * Encapsulamiento. 
+       * ¿ Por qué encapsulamiento ?. 
        
-       * Composición o Herencia ?
+       * ¿ Composición o Herencia ?
        
        * Programa con interfaces , no con implementaciones.
   
@@ -67,18 +72,12 @@ Se divide en 3 grupos :
    
    * Composite
  
-## Tools
- 
- - Compilador online https://www.compilejava.net/
- 
- - IntelliJ IDEA (java IDE)  https://www.jetbrains.com/idea/?fromMenu
- 
  
 ## Tarea
  
  - Investigar sobre Antipatrones , crear un ejemplo con un antipatron.
  
- - Subir los  ejemplos a sus cuentas de github.
+ - Subir los  ejemplos a  github.
  
 
 ## Referencias
