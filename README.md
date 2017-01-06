@@ -4,7 +4,7 @@ Java for Android Developers (10h)
  
 ## Patrones de Diseño (2h)
 
- Conceptos previos
+### Conceptos previos
   
   -  Conceptos básicos de POO
   
@@ -16,22 +16,31 @@ Java for Android Developers (10h)
       
       * Herencia
       
-   -  Principios de POO
+  -  Principios de POO
     
-       * Encapsular lo que varía. 
+       * Encapsulamiento. 
        
        * Composición o Herencia ?
        
        * Programa con interfaces , no con implementaciones.
   
- ¿ Qué son los patrones de diseño ?
- Son lecciones aprendidas por otros desarrolladores que han pasado por el problema y no murieron en el intento
- o encontraron un mejor camino para resolverlo.
+### ¿ Qué son los patrones de diseño ?
  
- La idea es aprender de la experiencia obtenida usando los patrones y no solo de reutilizar el código.
+Son lecciones aprendidas por otros desarrolladores que han pasado por el problema y no murieron en el intento
+o encontraron un mejor camino para resolverlo.
  
- Se divide en 3 grupos :
-
+La idea es aprender de la experiencia obtenida usando los patrones y no solo de reutilizar el código.
+ 
+Se divide en 3 grupos :
+ 
+  * Comportamiento
+  
+  * Creación
+  
+  * Estructura
+  
+### Patrones :
+ 
  - Comportamiento
  
    * Command
@@ -42,17 +51,16 @@ Java for Android Developers (10h)
    
    * Strategy
    
- 
- - Creación
+- Creación
  
    * Factory
    
    * Singleton
    
    * Builder
- 
- - Estructura
- 
+   
+- Estructura
+
    * Decorator
    
    * Adapter
@@ -65,22 +73,13 @@ Java for Android Developers (10h)
  
  - IntelliJ IDEA (java IDE)  https://www.jetbrains.com/idea/?fromMenu
  
-## Patrones 
  
- - Factory Pattern
+## Tarea
  
- - Singleton Pattern
+ - Investigar sobre Antipatrones , crear un ejemplo con un antipatron.
  
- - Builder Pattern
+ - Subir los  ejemplos a sus cuentas de github.
  
- - Adapter Pattern
- 
- - Command Pattern
- 
- - State Pattern
- 
- 
-## Ejercicios 
 
 ## Referencias
 
@@ -89,3 +88,5 @@ Java for Android Developers (10h)
 - Software Architecture & Design https://www.udacity.com/course/software-architecture-design--ud821
 
 - Design Patterns Java Workbook  https://www.safaribooksonline.com/library/view/design-patterns-javatm/0201743973/
+
+- Design Patterns Explained Simply https://sourcemaking.com/design_patterns
