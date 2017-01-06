@@ -28,7 +28,7 @@ Java for Android Developers (10h)
  Son lecciones aprendidas por otros desarrolladores que han pasado por el problema y no murieron en el intento
  o encontraron un mejor camino para resolverlo.
  
- La idea es aprender de la experiencia obtenida usando los patrones que de reutilizar el código.
+ La idea es aprender de la experiencia obtenida usando los patrones y no solo de reutilizar el código.
  
  Se divide en 3 grupos :
 
