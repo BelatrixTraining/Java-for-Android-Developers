@@ -31,7 +31,15 @@ Java for Android Developers (10h)
  La idea es aprender de la experiencia obtenida usando los patrones que de reutilizar el código.
  
  Se divide en 3 grupos :
-
+ 
+  * Comportamiento
+  
+  * Creación
+  
+  * Estructura
+  
+Patrones :
+ 
  - Comportamiento
  
    * Command
@@ -42,15 +50,14 @@ Java for Android Developers (10h)
    
    * Strategy
    
- 
- - Creación
+- Creación
  
    * Factory
    
    * Singleton
    
    * Builder
- 
+   
  - Estructura
  
    * Decorator
