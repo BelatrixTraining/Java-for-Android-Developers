@@ -223,5 +223,6 @@ En Java tenemos los siguientes modificadores de acceso:
 
  - https://www.edx.org/course/java-fundamentals-android-development-galileox-caad001x
  - https://docs.oracle.com/javase/tutorial/java/concepts/object.html
+ - https://sourcemaking.com/antipatterns
 
 	
