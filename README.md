@@ -4,7 +4,7 @@ Java for Android Developers (10h)
  
 ## Patrones de Diseño (2h)
 
- ### Conceptos previos
+### Conceptos previos
   
   -  Conceptos básicos de POO
   
