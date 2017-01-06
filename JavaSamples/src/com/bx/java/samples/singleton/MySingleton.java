@@ -13,4 +13,5 @@ public class MySingleton {
         }
         return instance;
     }
+
 }
