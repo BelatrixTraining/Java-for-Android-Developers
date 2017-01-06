@@ -56,9 +56,15 @@ Se divide en 3 grupos :
    
    * Strategy
    
+   * Mediator
+   
+   * Memento
+   
 - Creación
  
    * Factory
+   
+   * Abstract Factory
    
    * Singleton
    
@@ -68,9 +74,13 @@ Se divide en 3 grupos :
 
    * Decorator
    
+   * Facade
+   
    * Adapter
    
    * Composite
+   
+   * Proxy
  
  
 ## Tarea
