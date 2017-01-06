@@ -6,6 +6,8 @@
 
 - AlertDialog
 
+![alertdialog](https://developer.android.com/images/ui/dialog_custom.png)
+
 ```java
       new AlertDialog.Builder(this)
                       .setTitle("Sample Alert")
