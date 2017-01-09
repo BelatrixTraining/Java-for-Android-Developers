@@ -84,10 +84,34 @@ CalculadorArea calculadorArea = new CalculadorArea(figuras);
 calculadorArea.output();
 }
 }
-
 El SRP es uno de los principios más simples pero a su vez mas difíciles de hacerlo bien. Juntar responsabilidades es algo que hacemos naturalmente e identificar esas responsabilidades y separarlas de si mismas tiene que ver mucho con lo que el diseño de software realmente trata.
 
 2. **"Open-Closed Principle" o "Principio Abierto-Cerrado"**
+Este principio nos habla acerca de que una entidad de software debería estar abierta a la extensión pero cerrada a la modificación. Esto significa que deberíamos ser capaces de extender el comportamiento de la clase sin necesidad de modificar el código que ya ha sido escrito en esta. 
+Aplicar SRP nos ayudará bastante para poder aplicar correctamente este principio pero esto **no** asegurará que se cumpla. Y claro está que aplicar este principio tampoco asegurará la aplicación de SRP.
+El polimorfismo será también de gran ayuda para esto.
+
+public class CalculadorArea {
+
+private List<Figura> figuras;
+
+public CalculadorArea(List<Figura> figuras) {
+this.figuras = figuras;
+}
+
+public double sumarAreas() {
+double sumaTotal = 0;
+for (Figura figura : figuras) {
+if (figura instanceof Cuadrado) {
+sumaTotal += ((Cuadrado) figura).getLado() * ((Cuadrado) figura).getLado();
+} else if (figura instanceof Circulo) {
+sumaTotal += Math.PI * ((Circulo) figura).getRadio() * ((Circulo) figura).getRadio();
+}
+}
+return sumaTotal;
+}
+}
+
 
 3. **"Liskov Substitution Principle" o "Principio de Substitución de Liskov"**
 
