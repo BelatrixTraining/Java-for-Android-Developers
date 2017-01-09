@@ -1,9 +1,11 @@
 # Java-for-Android-Developers
 Java for Android Developers (10h)
+
+Codigo: https://github.com/BelatrixTraining/Java-for-Android-Developers/tree/Lesson4/JavaSamples/Lesson4/src/com/bx/java/samples
  
 ## Principios S.O.L.I.D (2h)
 
-SOLID es un acrónimo que engloba los 5 primeros principios de diseño orientado a objetos propuestos por Robert Martin también conocido como Uncle Bob.
+SOLID es un acrónimo que engloba los 5 primeros principios de diseño orientado a objetos propuesto por Robert Martin también conocido como Uncle Bob.
 
 **S** ingle Responsability Principle (SRP)
 **O** pen Closed Principle (OCP)
