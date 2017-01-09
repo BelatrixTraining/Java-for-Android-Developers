@@ -4,22 +4,11 @@ package com.bx.java.samples.lsp;
  * Created by pjohnson on 9/01/17.
  */
 public class Rectangulo {
-    protected double ancho;
-    protected double alto;
+    protected final double ancho;
+    protected final double alto;
 
-    public double getAncho() {
-        return ancho;
-    }
-
-    public void setAncho(double ancho) {
+    public Rectangulo(double ancho, double alto) {
         this.ancho = ancho;
-    }
-
-    public double getAlto() {
-        return alto;
-    }
-
-    public void setAlto(double alto) {
         this.alto = alto;
     }
 
