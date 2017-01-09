@@ -216,6 +216,20 @@ return 0;
 }
 
 5. **"Dependency Inversion Principle" o "Principio de Inversión de Dependencias"**
+Las entidades deben depender de abstracciones y no de implementaciones concretas. En otras palabras, los módulos de alto nivel no deben depender de los módulos de bajo nivel, pero ambos deben depender de abstracciones.
+
+public class CarritoCompras {
+
+public void comprar(Compra compra) {
+BaseDeDatos baseDeDatos = new BaseDeDatos();
+baseDeDatos.guardar(compra);
+
+TarjetaCredito tarjetaCredito = new TarjetaCredito();
+tarjetaCredito.pagar(compra);
+
+}
+}
+
 
 ## Referencias 
 
