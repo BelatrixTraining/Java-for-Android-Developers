@@ -180,6 +180,40 @@ System.out.println("Mal");
 }
 
 4. **"Interface Segregation Principle" o "Principio de Segregación de Interfaces"**
+Este principio se refiere a que una clase no debe nunca implementar una interfaz o un método que no va a utilizar. 
+
+public interface FiguraPlana {
+double calcularArea();
+double calcularVolumen();
+}
+
+public class Cuadrado implements FiguraPlana {
+
+private double lado;
+
+public Cuadrado(double lado) {
+this.lado = lado;
+}
+
+public double getLado() {
+return lado;
+}
+
+public void setLado(double lado) {
+this.lado = lado;
+}
+
+@Override
+public double calcularArea() {
+return 0;
+}
+
+@Override
+public double calcularVolumen() {
+//TODO: Que hago aqui???
+return 0;
+}
+}
 
 5. **"Dependency Inversion Principle" o "Principio de Inversión de Dependencias"**
 

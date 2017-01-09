@@ -5,6 +5,4 @@ package com.bx.java.samples.isp;
  */
 public interface FiguraPlana {
     double calcularArea();
-
-    double calcularVolumen();
 }
