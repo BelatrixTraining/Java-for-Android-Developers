@@ -4,7 +4,7 @@ package com.bx.java.samples.isp;
 /**
  * Created by pjohnson on 9/01/17.
  */
-public class Circulo implements Figura {
+public class Circulo implements FiguraPlana {
 
     private double radio;
 
@@ -23,11 +23,5 @@ public class Circulo implements Figura {
     @Override
     public double calcularArea() {
         return Math.PI * radio * radio;
-    }
-
-    @Override
-    public double calcularVolumen() {
-        //TODO:I dont know what to do =(
-        return 0;
     }
 }

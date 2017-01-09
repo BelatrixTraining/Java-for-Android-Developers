@@ -19,18 +19,33 @@
       <file leaf-file-name="Cuadrado.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bx/java/samples/isp/Cuadrado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="270">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Circulo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cubo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bx/java/samples/isp/Cubo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Circulo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bx/java/samples/isp/Circulo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -71,9 +86,11 @@
         <option value="$PROJECT_DIR$/src/com/bx/java/samples/lsp/Main.java" />
         <option value="$PROJECT_DIR$/src/com/bx/java/samples/lsp/Rectangulo.java" />
         <option value="$PROJECT_DIR$/src/com/bx/java/samples/lsp/Cuadrado.java" />
-        <option value="$PROJECT_DIR$/src/com/bx/java/samples/isp/Figura.java" />
-        <option value="$PROJECT_DIR$/src/com/bx/java/samples/isp/Cuadrado.java" />
+        <option value="$PROJECT_DIR$/src/com/bx/java/samples/isp/FiguraSolida.java" />
         <option value="$PROJECT_DIR$/src/com/bx/java/samples/isp/Circulo.java" />
+        <option value="$PROJECT_DIR$/src/com/bx/java/samples/isp/Cuadrado.java" />
+        <option value="$PROJECT_DIR$/src/com/bx/java/samples/isp/Figura.java" />
+        <option value="$PROJECT_DIR$/src/com/bx/java/samples/isp/Cubo.java" />
       </list>
     </option>
   </component>
@@ -627,27 +644,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bx/java/samples/isp/Figura.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bx/java/samples/isp/Circulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bx/java/samples/isp/Cuadrado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bx/java/samples/isp/Circulo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bx/java/samples/isp/FiguraPlana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="8" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bx/java/samples/isp/FiguraSolida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bx/java/samples/isp/Cubo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
