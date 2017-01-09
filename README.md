@@ -114,6 +114,70 @@ return sumaTotal;
 
 
 3. **"Liskov Substitution Principle" o "Principio de Substitución de Liskov"**
+Este principio se refiere a que toda subclase debe poder ser substituida por la clase padre y no alterar así la validez del programa.
+
+public class Rectangulo {
+protected double ancho;
+protected double alto;
+
+public double getAncho() {
+return ancho;
+}
+
+public void setAncho(double ancho) {
+this.ancho = ancho;
+}
+
+public double getAlto() {
+return alto;
+}
+
+public void setAlto(double alto) {
+this.alto = alto;
+}
+
+public double calcularArea() {
+return ancho * alto;
+}
+}
+
+
+public class Cuadrado extends Rectangulo {
+
+@Override
+public void setAncho(double ancho) {
+this.ancho = ancho;
+this.alto = ancho;
+}
+
+@Override
+public void setAlto(double alto) {
+this.alto = alto;
+this.ancho = ancho;
+}
+}
+
+
+public class Main {
+
+public static void main(String[] args) {
+Rectangulo rectangulo = new Rectangulo();
+rectangulo.setAlto(20);
+rectangulo.setAncho(10);
+if (rectangulo.calcularArea() == 200.0) {
+System.out.println("Bien");
+}
+
+Cuadrado cuadrado = new Cuadrado();
+cuadrado.setAlto(20);
+cuadrado.setAncho(10);
+if (cuadrado.calcularArea() == 200.0) {
+System.out.println("Bien");
+} else {
+System.out.println("Mal");
+}
+}
+}
 
 4. **"Interface Segregation Principle" o "Principio de Segregación de Interfaces"**
 
