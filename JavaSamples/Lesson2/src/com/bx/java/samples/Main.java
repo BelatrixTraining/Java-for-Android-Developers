@@ -8,14 +8,21 @@ import java.util.List;
  */
 public class Main {
     public static void main(String[] args) {
-        List<Trabajador> trabajadores = new ArrayList<>();
-        TrabajadorCocina trabajadorCocina = new TrabajadorCocina();
-        TrabajadorLimpieza trabajadorLimpieza = new TrabajadorLimpieza();
-        trabajadores.add(trabajadorCocina);
-        trabajadores.add(trabajadorLimpieza);
+        List<Trabajador> trabajadoresLista = new ArrayList<>();
+        TrabajadorCocina trabajadorCocina = new TrabajadorCocina("Pablo");
+        trabajadorCocina.setPlato("Tacutacu");
+        TrabajadorCocina trabajadorCocina2 = new TrabajadorCocina("Eduardo", "asado", "parrilla");
+        TrabajadorLimpieza trabajadorLimpieza = new TrabajadorLimpieza("Carlos");
+        trabajadoresLista.add(trabajadorCocina);
+        trabajadoresLista.add(trabajadorLimpieza);
+        trabajadoresLista.add(trabajadorCocina2);
+        trabajadorCocina.setName("Alberto");
 
-        //for (int i=0; i<trabajadores.size(); i++)
-        for (Trabajador trabajador : trabajadores) {
+
+        //for (int i=0; i<trabajadoresLista.size(); i++){
+        // System.out.println(trabajadoresLista.get(i).trabajar());
+        //}
+        for (Trabajador trabajador : trabajadoresLista) {
             System.out.println(trabajador.trabajar());
         }
     }

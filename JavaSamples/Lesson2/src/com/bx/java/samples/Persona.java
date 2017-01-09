@@ -8,7 +8,11 @@ import java.util.Date;
 
 public class Persona {
 
-    private String name;
+    public Persona(String nombre) {
+        name = nombre;
+    }
+
+    protected String name;
     private String lastname;
     private Date birthdate;
     private int age;

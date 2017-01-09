@@ -9,6 +9,10 @@ public abstract class Trabajador extends Persona {
     private String id;
     private String tutorName;
 
+    public Trabajador(String nombre) {
+        super(nombre);
+    }
+
     public String getId() {
         return id;
     }

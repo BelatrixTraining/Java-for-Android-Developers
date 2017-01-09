@@ -5,6 +5,11 @@ package com.bx.java.samples;
  */
 
 public class TrabajadorLimpieza extends Trabajador {
+
+    public TrabajadorLimpieza(String nombre) {
+        super(nombre);
+    }
+
     @Override
     public String trabajar() {
         return "Estoy limpiando!!";
