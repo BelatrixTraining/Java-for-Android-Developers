@@ -19,6 +19,11 @@ public class Main {
         figuras.add(circulo1);
 
         CalculadorArea calculadorArea = new CalculadorArea(figuras);
-        calculadorArea.output();
+        OutputDataManager outputDataManager = new OutputDataManager(calculadorArea);
+        System.out.println(outputDataManager.outputHtml());
+        System.out.println(outputDataManager.outputJson());
+        System.out.println(outputDataManager.outputXml());
+        outputDataManager.outputInConsole();
+
     }
 }

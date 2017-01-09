@@ -16,8 +16,4 @@ public class CalculadorArea {
     public double sumarAreas() {
         return 0;
     }
-
-    public void output() {
-        System.out.println("La suma total de todas las áreas es: " + sumarAreas());
-    }
 }
