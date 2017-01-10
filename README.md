@@ -18,6 +18,7 @@ Java for Android Developers (10h)
 
 ![mainthread](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson5/images/main_thread_android.jpeg)
 
+![mainthread1](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson5/images/mainthreadandroid.png)
 
 ¿En que caso usar alguno de estos componentes ?
 
