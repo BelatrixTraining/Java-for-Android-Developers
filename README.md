@@ -19,7 +19,7 @@ Java for Android Developers (10h)
 ![mainthread](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson5/images/main_thread_android.jpeg)
 
 
-¿En que caso usar uno de estos componentes ?
+¿En que caso usar alguno de estos componentes ?
 
 - Cuando sea requerido ejecutar procesos en background pero se necesite informar a la UI que esta pasando, por ejemplo el porcentaje del proceso . En este caso debemos usar un AsyncTask
 
