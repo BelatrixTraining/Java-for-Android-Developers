@@ -6,11 +6,15 @@ Java for Android Developers (10h)
 
 ## Procesos en background en Android
 
-- Services 
-
-- Threads
-
 - AsyncTask
+![asynctask](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson5/images/asynctask.png)
+
+- Services 
+![service](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson5/images/service_lifecycle.png)
+
+- Main Thread
+![mainthread](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson5/images/main_thread_android.jpeg)
+
 
 
 ## Referencias 
