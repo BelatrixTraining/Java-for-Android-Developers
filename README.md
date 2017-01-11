@@ -13,34 +13,34 @@ Java for Android Developers (10h)
  
 - ¿Cómo crear un Thread?
 
- * Podemos crear la clase llamada "SomeThread" que extienda de Thread
+ * Podemos crear una clase llamada "SomeThread" que extienda de Thread
  
  ```java
-  public class SomeThread extends Thread{
+   public class SomeThread extends Thread{
 
-    @Override
-    public void run() {
-        super.run();
+       @Override
+       public void run() {
+           super.run();
 
-        for (int i = 0; i <10 ; i++) {
-            System.out.println(" counter "+i);
-        }
-    }
- }
+           for (int i = 0; i <10 ; i++) {
+               System.out.println("thread name '"+getName()+ "' i "+i);
+           }
+       }
+   }
  ```
  * Mediante un Runnable , creamos una clase llamada "SomeRunnable"
  
   ```java
-  public class SomeRunnable implements Runnable {
+    public class SomeRunnable implements Runnable {
 
-      @Override
-      public void run() {
+        @Override
+        public void run() {
 
-          for (int i = 0; i <10 ; i++) {
-              System.out.println("thread name "+Thread.currentThread().getName()+" counter "+i);
-          }
-      }
-  }
+            for (int i = 0; i <10 ; i++) {
+                System.out.println("thread name "+Thread.currentThread().getName()+" i "+i);
+            }
+        }
+    }
  ```
  
 - Algunas propiedades y métodos
@@ -325,6 +325,64 @@ Java for Android Developers (10h)
          */
     }
   ```
+ * Mostrar la fecha y hora en pantalla
+ 
+   ```java
+     package com.bx.threadsamples.samples;
+
+    import java.awt.*;
+    import java.util.Date;
+
+    /**
+     * Created by eduardomedina on 11/01/17.
+     */
+    public class MainDigitalClock extends java.applet.Applet implements Runnable{
+
+        Font font= new Font("TimesRoman", Font.BOLD,24);
+        Date time;
+        Thread runner;
+
+        @Override
+        public void start() {
+            super.start();
+            if(runner==null){
+                runner= new Thread(this);
+                runner.start();
+            }
+        }
+
+        @Override
+        public void stop() {
+            super.stop();
+
+            if(runner!=null){
+                runner.stop();
+                runner=null;
+            }
+        }
+
+        @Override
+        public void run() {
+            while (true){
+                time= new Date();
+                repaint();
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        @Override
+        public void paint(Graphics g) {
+            super.paint(g);
+            g.setFont(font);
+            g.drawString(time.toString(),10,50);
+        }
+    }
+   ```
+ 
 ## Procesos en background en Android
 
 - AsyncTask
