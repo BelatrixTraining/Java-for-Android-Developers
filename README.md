@@ -116,7 +116,7 @@ El polimorfismo será también de gran ayuda para esto.
 	
 
  3. **"Liskov Substitution Principle" o "Principio de Substitución de Liskov"**
-Este principio se refiere a que toda subclase debe poder ser substituida por la clase padre y no alterar así la validez del programa.
+Este principio se refiere a que toda clase debe poder ser substituida por la clase hija y no alterar así la validez del programa.
 
 	    public class Rectangulo {
 		    protected double ancho;
