@@ -5,7 +5,13 @@ Java for Android Developers (10h)
 
 - ¿Qué es un Thread o Hilo?
 
-- Crear un Thread
+ * Permite realizar múltiples actividades dentro de un solo proceso.
+
+ * Es un serie de instrucciones ejecutadas
+ 
+ * Comparten memoria,archivos y estado por proceso.
+ 
+- ¿Cómo crear un Thread?
 
  * Podemos crear la clase llamada "SomeThread" que extienda de Thread
  
@@ -54,10 +60,110 @@ Java for Android Developers (10h)
   ```
  * join();
  
+  ```java
+   import java.util.ArrayList;
+   import java.util.List;
+
+   /**
+    * Created by eduardomedina on 11/01/17.
+    */
+   public class MainJoin {
+
+
+       public static void main(String[] args) {
+           System.out.println("Join Threads ");
+           List<SampleThread> threads= new ArrayList<>();
+
+           for (int i = 0; i < 3; i++) {
+               SampleThread sampleThread= new SampleThread();
+               threads.add(sampleThread);
+               try {
+                   sampleThread.join();
+               } catch (InterruptedException e) {
+                   e.printStackTrace();
+               }
+
+           }
+
+           for (SampleThread thread:threads) {
+               thread.start();
+           }
+
+
+       }
+
+       public static class SampleThread extends Thread{
+
+           @Override
+           public void run() {
+               super.run();
+
+               for (int i = 0; i <10 ; i++) {
+                   try{
+                       Thread.sleep(10);
+                   }catch (Exception e){}
+               }
+               System.out.println("thread "+getName());
+           }
+       }
+
+       /*
+            thread Thread-1
+            thread Thread-0
+            thread Thread-2
+        */
+
+       //JOIN
+       /*
+           thread Thread-0
+           thread Thread-1
+           thread Thread-2
+        */
+   }
+  ```
+ 
  * wait();
  
  * start();
  
+- ¿Cómo detener un Thread ?
+
+  ```java
+      public class MyThread extends Thread {
+
+        private boolean running= true;
+
+        @Override
+        public void run() {
+            super.run();
+            while(running){
+                System.out.println("Hello thread...");
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        public void shutdown(){
+            running=false;
+            System.out.println("Bye thread...");
+        }
+    }
+  ```
+  
+  ```java
+    MyThread myThread= new MyThread();
+          myThread.start();
+
+          System.out.println("Press return");
+          Scanner scanner=new Scanner(System.in);
+          scanner.nextLine();
+
+          myThread.shutdown();
+  ```
+  
 - Synchronized
 
   ```java
@@ -112,7 +218,7 @@ Java for Android Developers (10h)
    }
 
   ```
- 
+  
 - Ejemplos 
  
  * Generar números primos 
