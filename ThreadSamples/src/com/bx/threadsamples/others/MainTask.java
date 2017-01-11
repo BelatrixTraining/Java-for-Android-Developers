@@ -1,4 +1,4 @@
-package com.bx.threadsamples;
+package com.bx.threadsamples.others;
 
 import com.bx.threadsamples.basic.SomeRunnable;
 
@@ -14,7 +14,7 @@ public class MainTask {
     private static final int TIME= 1000;//5000;
 
     public static void main(String[] args) {
-        System.out.println("MainThread Task ");
+        System.out.println("Thread Task ");
 
         Runnable runnable= new SomeRunnable();
         ScheduledExecutorService scheduledExecutorService= Executors.newSingleThreadScheduledExecutor();

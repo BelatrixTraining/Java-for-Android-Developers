@@ -6,7 +6,7 @@ package com.bx.threadsamples.samples;
 public class MainPrime {
 
     public static void main(String[] args) {
-        System.out.println("Main Prime Generator ");
+        System.out.println("Prime Generator sample");
 
         PrimeRunnable runnable= new PrimeRunnable();
         Thread primeGenerator= new Thread(runnable);

@@ -9,7 +9,7 @@ public class SomeRunnable implements Runnable {
     public void run() {
 
         for (int i = 0; i <10 ; i++) {
-            System.out.println("thread name "+Thread.currentThread().getName()+" counter "+i);
+            System.out.println("thread name "+Thread.currentThread().getName()+" i "+i);
         }
     }
 }

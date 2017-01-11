@@ -10,7 +10,7 @@ public class MainJoin {
 
 
     public static void main(String[] args) {
-        System.out.println("Main Join Threads ");
+        System.out.println("Join Threads ");
         List<SampleThread> threads= new ArrayList<>();
 
         for (int i = 0; i < 3; i++) {

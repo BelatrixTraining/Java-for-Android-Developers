@@ -1,4 +1,4 @@
-package com.bx.threadsamples;
+package com.bx.threadsamples.others;
 
 import com.bx.threadsamples.basic.SomeRunnable;
 
@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 public class MainThreadPool {
 
     public static void main(String[] args) {
-        System.out.println("MainThread threadpool");
+        System.out.println("Thread ThreadPool");
 
         Runnable runnable= new SomeRunnable();
         ExecutorService executorService= Executors.newFixedThreadPool(3);
