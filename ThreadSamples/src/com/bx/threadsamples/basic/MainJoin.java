@@ -7,7 +7,7 @@ import java.util.List;
  * Created by eduardomedina on 11/01/17.
  */
 public class MainJoin {
-    
+
 
     public static void main(String[] args) {
         System.out.println("Main Join Threads ");
