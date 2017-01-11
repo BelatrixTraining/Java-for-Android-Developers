@@ -10,7 +10,7 @@ public class MainThread {
     public static void main(String[] args) {
         System.out.println("MainThread thread samples");
 
-        //runnables
+        //RUNNABLES
         Runnable runnable= new SomeRunnable();
         Thread threadA= new Thread(runnable);
         Thread threadB= new Thread(runnable);
@@ -18,11 +18,11 @@ public class MainThread {
         threadA.start();
         threadB.start();
 
-        //threads
+        //THREADS
         /*SomeThread someThread= new SomeThread();
         someThread.start();*/
 
-        //sleep
+        //SLEEP
         /*Thread thread  = Thread.currentThread();
         thread.setName("My Thread");
 
@@ -32,6 +32,9 @@ public class MainThread {
                 Thread.sleep(1000);
             }
         }catch (InterruptedException e){}*/
+
+
+        //JOIN
 
     }
 }

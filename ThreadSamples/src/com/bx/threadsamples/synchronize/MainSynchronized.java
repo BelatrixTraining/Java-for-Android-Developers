@@ -51,6 +51,4 @@ public class MainSynchronized {
         //total synchronize 2000
 
     }
-
-
 }
