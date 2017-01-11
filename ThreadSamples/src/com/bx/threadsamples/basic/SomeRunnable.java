@@ -1,4 +1,4 @@
-package com.bx.threadsamples;
+package com.bx.threadsamples.basic;
 
 /**
  * Created by eduardo on 10/01/17.

@@ -1,4 +1,6 @@
-package com.bx.threadsamples;
+package com.bx.threadsamples.basic;
+
+import com.bx.threadsamples.basic.SomeRunnable;
 
 /**
  * Created by eduardo on 10/01/17.
@@ -8,13 +10,17 @@ public class MainThread {
     public static void main(String[] args) {
         System.out.println("MainThread thread samples");
 
-        //threads
+        //runnables
         Runnable runnable= new SomeRunnable();
         Thread threadA= new Thread(runnable);
         Thread threadB= new Thread(runnable);
 
         threadA.start();
         threadB.start();
+
+        //threads
+        /*SomeThread someThread= new SomeThread();
+        someThread.start();*/
 
         //sleep
         /*Thread thread  = Thread.currentThread();

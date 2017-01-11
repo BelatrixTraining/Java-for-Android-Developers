@@ -1,5 +1,7 @@
 package com.bx.threadsamples;
 
+import com.bx.threadsamples.basic.SomeRunnable;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
