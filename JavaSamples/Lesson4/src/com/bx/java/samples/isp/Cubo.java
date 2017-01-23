@@ -5,7 +5,12 @@ package com.bx.java.samples.isp;
  */
 public class Cubo implements FiguraPlana, FiguraSolida{
 
+    private final double lado;
 
+    public Cubo(double lado){
+        this.lado=lado;
+    }
+    
     @Override
     public double calcularArea() {
         return 0;

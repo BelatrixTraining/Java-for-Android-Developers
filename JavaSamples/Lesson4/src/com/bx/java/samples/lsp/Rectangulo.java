@@ -11,7 +11,6 @@ public class Rectangulo {
         this.ancho = ancho;
         this.alto = alto;
     }
-
     public double calcularArea() {
         return ancho * alto;
     }
